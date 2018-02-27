@@ -1,0 +1,58 @@
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+      width: 100px;
+      height: 100px;
+
+      color: white;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+}
+
+hr{
+
+
+  visibility: hidden;
+}
+
+.jumbotron {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+      width: 850px;
+      height: 500px;
+
+
+
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+}
+
+  .back {
+
+    background-color: white;
+    height: 100%;
+
+  }
+
+ :host /deep/ ng-sidebar{
+   background: red !important;
+   width: 13rem !important;
+   color: red !important;
+
+
+   }

@@ -1,0 +1,8 @@
+
+
+.image{
+     height:40em; background-size:cover; width:100%;
+     background-image:url('./Picture3.png');
+
+     background-position:50% 50%;
+   }

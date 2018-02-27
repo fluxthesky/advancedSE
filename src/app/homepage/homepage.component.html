@@ -1,0 +1,54 @@
+
+
+<ng-sidebar-container height = "100vh">
+
+      <!-- A sidebar -->
+      <ng-sidebar  [(opened)]="_opened"
+      >
+      <div class = "back">
+        <div class="list-group">
+         <a href = "#" class="panel panel-default">Project Manager
+         <ul>
+            <a href = "login" class = "list-group-item">Project Status</a>
+            <a href = "#" class = "list-group-item" >Initial Cost Estimations</a>
+            <a href = "#" class = "list-group-item" >Contract Singing</a>
+            <a href = "#" class = "list-group-item" >Pre-Construction</a>
+            <a href = "#" class = "list-group-item" >Construction</a>
+            <a href = "#" class = "list-group-item" >Past Projects</a>
+
+
+
+
+          </ul>
+        </a>
+         <a href = "#" class="panel panel-default">Procurement
+           <ul>
+              <a href = "login" class = "list-group-item">Black tea</a>
+              <a href = "#" class = "list-group-item" >Green tea</a>
+            </ul>
+          </a>
+         <a href = "#" class="panel panel-default">Human Resource
+           <ul>
+              <a href = "login" class = "list-group-item">Black tea</a>
+              <a href = "#" class = "list-group-item" >Green tea</a>
+            </ul>
+          </a>
+       </div>
+
+      </div>
+      </ng-sidebar>
+
+      <!-- Page content -->
+      <div ng-sidebar-content>
+        <button class = "btn btn-secondary" (click)="_toggleSidebar()">Toggle sidebar</button>
+
+        <div class = "jumbotron">
+
+          <p> Welcome! </p>
+
+
+        </div>
+
+      </div>
+
+</ng-sidebar-container>
